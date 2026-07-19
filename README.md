@@ -22,7 +22,7 @@ Most companies integrate AI with their data by feeding massive spreadsheets or e
 Instead of feeding the entire sheet to the AI, this bot separates **cognitive reasoning** from **data execution**:
 
 1. **Automated Schema Analysis**: Extracts only high-level metadata (column names, types, descriptions) from your data.
-2. **Writing Logic, Not Answers**: The AI receives this lightweight schema (under 1,000 tokens) and writes a precise Python script or SQL query.
+2. **Writing Logic, Not Answers**: The AI receives this lightweight schema and writes a precise Python script or SQL query.
 3. **Secure Local Execution**: The generated script runs locally in a secure, sandboxed environment against your full dataset.
 4. **Clean Results**: The local engine returns only the final aggregated result or a small summary table.
 5. **No Hallucinations**: Since a deterministic local computation engine executes the math, there is zero room for AI calculation errors.
