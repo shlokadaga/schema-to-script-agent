@@ -2,7 +2,7 @@
 
 > **Get answers to any complex query from your Excel spreadsheets or Databases within seconds—for only a fraction of a cent per query.**
 
-An intelligent, natural language Q&A interface for querying spreadsheets (Excel, CSV) and SQLite databases. This project goes beyond basic data chatbots by utilizing a **hybrid execution architecture** that saves up to 98% in LLM token costs, completely eliminates math hallucinations, and keeps your raw data private. It also features dynamic visualization generation and semantic retrieval for HR policy PDF manuals.
+An intelligent, natural language Q&A interface for querying spreadsheets (Excel, CSV) and SQLite databases. This project goes beyond basic data chatbots by utilizing a **hybrid execution architecture** that saves up to 98% in LLM token costs, completely eliminates math hallucinations, and keeps your raw data private. It also features dynamic visualization generation.
 
 ## The Problem: The "Naive" AI Data Approach
 
