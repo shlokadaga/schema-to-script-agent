@@ -2,8 +2,6 @@
 
 > **Get answers to any complex query from your Excel spreadsheets or Databases within seconds—for only a fraction of a cent per query.**
 
-![Banner placeholder](https://via.placeholder.com/1000x300.png?text=Next-Gen+Q%26A+Bot+-+Chat+with+your+Data)
-
 An intelligent, natural language Q&A interface for querying spreadsheets (Excel, CSV) and SQLite databases. This project goes beyond basic data chatbots by utilizing a **hybrid execution architecture** that saves up to 98% in LLM token costs, completely eliminates math hallucinations, and keeps your raw data private. It also features dynamic visualization generation and semantic retrieval for HR policy PDF manuals.
 
 ## The Problem: The "Naive" AI Data Approach
@@ -45,32 +43,6 @@ When deploying this application to production, standard compute costs apply. In 
 * **Models**: OpenAI GPT-4o-mini (Query Interpretation & Script Generation), OpenAI `text-embedding-3-large` (Manual Embeddings)
 * **Local Engines**: Pandas (for spreadsheet analysis), Matplotlib/Seaborn (for charting), SQLite (for database queries)
 * **Vector Store**: Chroma DB
-
-## Setup & Running
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/schema-to-script-agent.git
-   cd schema-to-script-agent
-   ```
-
-2. **Install Dependencies**:
-   Ensure you have Python 3.9+ installed.
-   ```bash
-   pip install -r requiremnt.txt
-   ```
-
-3. **Configuration**:
-   * Add your OpenAI API key in `main.py` or export it as an environment variable (alternatively, create a `config.ini` file based on the setup in your project):
-   ```bash
-   export OPENAI_API_KEY="your-openai-key-here"
-   ```
-
-4. **Run the Application**:
-   ```bash
-   python main.py
-   ```
-   *The server will start on `http://0.0.0.0:6014`.*
 
 ## Architecture Comparison
 
