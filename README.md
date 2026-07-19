@@ -1,6 +1,11 @@
 # schema-to-script-agent: A Private, Cost-Effective AI Data Analyst
 
-> **Get answers to any complex query from your Excel spreadsheets or Databases within seconds—for only a fraction of a cent per query.**
+* **What if** the AI doesn't read even a single cell of your data, but still gives the right response?
+* **What if** the AI writes the exact query or formula by itself based purely on your natural language input?
+* **What if** the cost is just a fraction of a cent per query?
+* **What if** you could get the final answer within 6-8 seconds?
+
+> **Welcome to the next generation of data analysis.**
 
 An intelligent, natural language Q&A interface for querying spreadsheets (Excel, CSV) and SQLite databases. This project goes beyond basic data chatbots by utilizing a **hybrid execution architecture** that saves up to 98% in LLM token costs, completely eliminates math hallucinations, and keeps your raw data private. It also features dynamic visualization generation.
 
