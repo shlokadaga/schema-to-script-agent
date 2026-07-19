@@ -32,9 +32,13 @@ Instead of feeding the entire sheet to the AI, this bot separates **cognitive re
 
 ## How It Works in Action
 
-**Step 1: Upload your Data**
-Just enter the Excel file or connect your SQL database.
-![Step 1: Upload](step1.png)
+**Step 0: The Upload Interface**
+Easily upload your Excel spreadsheet or connect your SQL database through the clean UI.
+![Step 0: Upload UI](step0.png)
+
+**Step 1: Configure Agent Persona**
+Customize the identity and instructions for your AI Data Scientist agent before analyzing.
+![Step 1: Configure Agent](step1.png)
 
 **Step 2: Automated Schema Analysis**
 The AI will itself determine the column names from the file and generate a precise description for each column, which you can edit if needed.
