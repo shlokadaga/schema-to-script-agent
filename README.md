@@ -30,6 +30,26 @@ Instead of feeding the entire sheet to the AI, this bot separates **cognitive re
 4. **Policy Search**: Semantic retrieval for unstructured company PDF manuals (HR guidelines, quality manual CBP/LQSM, etc.) powered by Chroma vector database.
 5. **Voice Input Integration**: Query your data hands-free using the voice button in the chatbot, translating speech to text locally in the browser.
 
+## How It Works in Action
+
+**Step 1: Upload your Data**
+Just enter the Excel file or connect your SQL database.
+![Step 1: Upload](step1.png)
+
+**Step 2: Automated Schema Analysis**
+The AI will itself determine the column names from the file and generate a precise description for each column, which you can edit if needed.
+![Step 2: Schema Analysis](step2.png)
+
+**Step 3: Ask Complex Questions**
+You can see the token usage and cost (which is extremely minimal) alongside the generated query. Even with typos (like spelling countries wrong), it is smart enough to understand your intent and write the correct code instantly!
+![Step 3: Q&A Chat](step3.png)
+
+**Step 4: Generate Visualizations**
+Need a chart? It can generate beautiful graphs and charts on the fly based on your data.
+![Step 4: Chart Generation](step4.png)
+
+> **💡 The Best Part:** The AI has no idea about the actual rows of data in your file. It only sees the schema. Yet, it gives a precise, 100% accurate mathematical answer, and the entire response comes back within just 6-7 seconds!
+
 ## Scalability & Production Infrastructure Costs
 
 When deploying this application to production, standard compute costs apply. In addition to FastAPI web server and database hosting:
